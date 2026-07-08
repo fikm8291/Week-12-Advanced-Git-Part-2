@@ -1,0 +1,48 @@
+/* Global variables and themes */
+:root {
+    /* TASK 2: You will intentionally clash on this line below! */
+    --primary-color: #3b82f6; 
+    --text-colour: #333333;
+    --bg-colour: #f4f4f4;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    color: var(--text-colour);
+    background-color: var(--bg-colour);
+}
+
+header {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+}
+
+.main-layout {
+    display: flex;
+    min-height: 70vh;
+}
+
+aside {
+    width: 250px;
+    background-color: #e5e7eb;
+    padding: 1rem;
+}
+
+main {
+    flex: 1;
+    padding: 1rem;
+}
+
+footer {
+    background-color: #1f2937;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Learner 1: Style your .nav-menu class below this line */
+
+
+/* Learner 3: Add your footer logo animation below this line */
