@@ -1,0 +1,8 @@
+{
+  "teamMembers": [
+    { "name": "Learner 1", "role": "Header Designer" },
+    { "name": "Learner 2", "role": "Sidebar Analyst" },
+    { "name": "Learner 3", "role": "Footer Creator" },
+    { "name": "Learner 4", "role": "Card Developer" }
+  ]
+}
